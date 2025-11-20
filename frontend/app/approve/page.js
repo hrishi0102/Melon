@@ -187,8 +187,7 @@ export default function ApprovePage() {
                         <span className="rounded-full border border-white/15 bg-white/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-white/60">
                           {chain?.name ?? 'Wallet'}
                         </span>
-                      </>
-                    ) : (
+                      </>) : (
                       <>
                         <span>Connect Wallet</span>
                         <span className="text-xs text-white/60">→</span>
@@ -199,7 +198,7 @@ export default function ApprovePage() {
               </ConnectButton.Custom>
             </div>
           </div>
-          {isConnected && (
+          {/* {isConnected && (
             <div className="flex items-center gap-4">
               {ensAvatar && (
                 <img
@@ -219,7 +218,7 @@ export default function ApprovePage() {
                 </p>
               </div>
             </div>
-          )}
+          )} */}
           <ConnectButton />
         </div>
       </header>
